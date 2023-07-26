@@ -163,7 +163,7 @@ a {
 }
 
 .img-online-games:hover img {
-    opacity: 0.2;
+    opacity: 0.8;
 }
 
 .img-online-games:hover .overlay {
@@ -180,7 +180,7 @@ a {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.5);
     opacity: 0;
 }
 
@@ -391,4 +391,90 @@ a {
     text-align: center;
     font-size: 0.5rem;
     font-weight: 500;
+}
+
+
+/*styles for mobile view*/
+@media screen and (max-width: 576px){
+    /*Header*/
+    .header nav{
+        flex-direction: column;
+        padding: 2rem 1.5rem;
+    }
+    .header ul{
+        flex-direction: column;
+    }
+    .header li{
+        margin-bottom: 1.5rem;
+    }
+    .title-logo{
+        margin-bottom: 1.5rem;
+    }
+    .nav-btn{
+        text-align: center;
+        width: 250px;
+    }
+    .banner{
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+    /*online games section*/
+    .online-games{
+        padding: 0.5rem 1rem;
+    }
+    .videos{
+        flex-direction: column;
+    }
+    .img-online-games-container{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+    }
+    /*play games section*/
+    .play-game-container {
+        padding: 0;
+        flex-direction: column-reverse;
+    }
+    .play-game-content {
+        width: 100%;
+        text-align: center;
+        padding-left: 0px;
+        padding-bottom: 20px;
+        text-shadow: 2px 2px 3px rgb(0, 0, 0, 0.3);
+    }
+    .play-game-img-one {
+        width: 80%;
+        padding-right: 50px;
+    }
+    .play-game-img-two {
+        position: absolute;
+        width: 30vw;
+        left: 200px;
+        top: 150px;
+    }
+    /*footer*/
+    .costomer-option ul {
+        max-width: 70%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+    }
+
+    .s-media ul {
+        max-width: 50%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+    }
+
+    .about-us ul {
+        max-width: 70%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+        padding-bottom: 30px;
+    }
 }
