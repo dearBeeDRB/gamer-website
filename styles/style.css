@@ -9,6 +9,10 @@
     color: #FF42A5;
 }
 
+.color-secondary {
+    color: #8758F1;
+}
+
 .btn-primary {
     border-radius: 48px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
@@ -20,6 +24,10 @@
 }
 
 /*header styles*/
+.header {
+    margin-bottom: 100px;
+}
+
 .header nav {
     padding: 20px 200px;
     display: flex;
@@ -116,4 +124,50 @@ a {
 .banner-img img {
     width: 100%;
     height: auto;
+}
+
+/*Online Game Section*/
+.online-games {
+    padding: 0 200px;
+    margin-bottom: 100px;
+}
+
+.title-online-games {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.text-online-games {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.videos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-online-games-container {
+    width: 262px;
+}
+
+.img-online-games {
+    margin-bottom: 1.5rem;
+}
+
+.img-online-games-container img {
+    height: 100%;
+    width: 100%;
+}
+
+.text-img-online-games {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
 }
