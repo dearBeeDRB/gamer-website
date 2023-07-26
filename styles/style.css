@@ -397,6 +397,9 @@ a {
 /*styles for mobile view*/
 @media screen and (max-width: 576px){
     /*Header*/
+    .header{
+        padding: 0;
+    }
     .header nav{
         flex-direction: column;
         padding: 2rem 1.5rem;
